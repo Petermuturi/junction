@@ -4,12 +4,16 @@ body{
 	background-repeat: no-repeat;
 }
 
+
 ul li{
 	list-style: none;
-    padding-left: 14px;
-    text-align: center;
+    padding-left: 12px;
+    /*text-align: center;*/
+    display: inline;
+
 }
 ul li a{
 	text-decoration: none;
 	color:white;
+	font-size: 11px;
 }
