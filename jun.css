@@ -16,6 +16,7 @@ ul li a{
 	color:white;
 	font-size: 11px;
 }
-div.row{
-	background-color: rgba(110, 138, 138, 0.6);  
+ul li a:hover{
+	color:#5DCC5E;
+	font-size: 12px;
 }
