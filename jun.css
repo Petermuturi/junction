@@ -8,7 +8,6 @@ body{
 ul li{
 	list-style: none;
     padding-left: 12px;
-    /*text-align: center;*/
     display: inline;
 
 }
@@ -16,4 +15,7 @@ ul li a{
 	text-decoration: none;
 	color:white;
 	font-size: 11px;
+}
+div.row{
+	background-color: rgba(110, 138, 138, 0.6);  
 }
