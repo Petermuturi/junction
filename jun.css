@@ -1,16 +1,13 @@
-body{
-	background-image: url("1.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
 ul{
  float: right;
+  margin-top: -5px;
 }
 ul li{
 	list-style: none;
     padding-left: 12px;
     display: inline;
+ padding-right: 30px;
 
 }
 ul li a{
@@ -21,4 +18,24 @@ ul li a{
 ul li a:hover{
 	color:#26B889;
 	font-size: 12px;
+}
+.one{
+	color: red;
+}
+.two{
+	color: blue;
+}
+.foot{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, rgb(92, 38, 38)),
+	color-stop(1, rgb(28, 32, 56))
+);
+background-image: -o-linear-gradient(bottom, rgb(92, 38, 38) 0%, rgb(28, 32, 56) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(92, 38, 38) 0%, rgb(28, 32, 56) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(92, 38, 38) 0%, rgb(28, 32, 56) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(92, 38, 38) 0%, rgb(28, 32, 56) 100%);
+background-image: linear-gradient(to bottom, rgb(92, 38, 38) 0%, rgb(28, 32, 56) 100%);
 }
