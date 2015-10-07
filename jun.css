@@ -1,11 +1,12 @@
 body{
-	background-image: url("bg.jpg");
+	background-image: url("1.jpg");
 	background-position: center;
-	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-
+ul{
+ float: right;
+}
 ul li{
 	list-style: none;
     padding-left: 12px;
@@ -14,8 +15,8 @@ ul li{
 }
 ul li a{
 	text-decoration: none;
-	color:white;
-	font-size: 11px;
+
+	font-size: 14px;
 }
 ul li a:hover{
 	color:#26B889;
